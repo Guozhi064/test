@@ -1,0 +1,76 @@
+{
+  "ver": "1.0",
+  "ret": true,
+  "errcode": 0,
+  "errmsg": "",
+  "data1": [{
+      "img": "img/tu1.png",
+      "title": "代付款"
+     },
+     {
+      "img": "img/tu2.png",
+      "title": "待收货"
+      },
+       {
+      "img": "img/tu3.png",
+      "title": "待评论"
+     }, 
+     {
+      "img": "img/tu4.png",
+      "title": "我的订单"
+  }],
+  "data2": [
+    {
+      "img": "img/minetu1.png",
+      "title": "商品收藏"
+    },
+    {
+      "img": "img/minetu2.png",
+      "title": "优惠券"
+    }, 
+    {
+      "img": "img/minetu3.png",
+      "title": "我的钱包"
+    }, 
+    {
+      "img": "img/minetu4.png",
+      "title": "KB商城"
+    },
+    {
+      "img": "img/minetu5.png",
+      "title": "攻略收藏"
+    }, 
+    {
+      "img": "img/minetu6.png",
+      "title": "我的黑丝卡"
+    }, 
+    {
+      "img": "img/minetu7.png",
+      "title": "黑丝共享"
+    }, 
+    {
+      "img": "img/minetu8.png",
+      "title": "在线客服"
+  }],
+  "data3":{
+      "mine":"我的攻略",
+      "src":"img/gonglue.png"
+  },
+  "denglu": [{
+      "img": "img/dengdl1.png",
+      "pp1":"在线客服",
+      "pp2":"点击查看您与客服的会话记录"
+     },
+     {
+      "img": "img/tu2.png",
+      "title": "待收货"
+      },
+       {
+      "img": "img/tu3.png",
+      "title": "待评论"
+     }, 
+     {
+      "img": "img/tu4.png",
+      "title": "我的订单"
+  }]
+}

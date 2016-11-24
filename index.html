@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<title>KK馆</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app='myapp'>
+	<div class="container">
+		<main ui-view>
+			
+		</main>
+		<footer>
+			<nav>
+				<a ui-sref="home" class='active home'>首页</a>
+				<a ui-sref="list" class='list'>分类</a>
+				<a ui-sref="found" class='found'>发现</a>
+				<a ui-sref="cart" class='cart'>购物车</a>
+				<a ui-sref="my" class='my'>我的</a>
+			</nav>
+		</footer>
+	</div>
+</body>
+<script src='js/angular.min.js'></script>
+<script src='js/angular-ui-router.js'></script>
+<script src='js/index.js'></script>
+<script>
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/7.2+'px';
+	
+</script>
+</html>

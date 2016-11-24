@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" ng-app="denglu">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/denglu.css">
+</head>
+<body>
+	
+	<div class="wrap" >
+		
+		<header class="header">
+			<a href="../#my">返回</a>
+			<h2>消息中心</h2>
+			<a href="javascript:;">设置</a>
+		</header> 
+		<main class="main">
+			<section ng-controller="denglu">
+			  	<dl ng-repeat='x in denglu'>
+			  		<dt> <img src="../img/dengdl1.png" alt=""> </dt>
+			  		<dd> 
+			  			<p>在线客服</p>
+			  			<p>点击查看您与客服的会话记录</p> 
+			  		</dd>
+			  	</dl>
+			  	<dl>
+			  		<dt> <img src="../img/dengdl2.png" alt=""> </dt>
+			  		<dd> 
+			  			<p>在线客服</p>
+			  			<p>点击查看您与客服的会话记录</p> 
+			  		</dd>
+			  	</dl>
+			</section>			
+		</main>
+		<footer class="footer"></footer>
+	</div>
+
+</body>
+<script>
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/7.2+'px';
+</script>
+</html>

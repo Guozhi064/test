@@ -1,0 +1,28 @@
+<div id="wrap"  ng-click='shezhi()'>
+	<header class="header">
+		<!-- <a ui-sref="my.shezhi">设置</a> -->
+		<a href="views/shezhi.html"></a>
+		<h1>我的kk</h1>
+		<a href='views/denglu.html'>登录</a>
+	</header>
+	<div id='shezhi' ui-view></div>
+	<section class="mine-f" id="minescroll" ng-controller="myMine">
+		<div>
+			<nav class="f-nav">
+				<div class="img"><img src="img/f-ren.png" alt=""></div>
+				<h2>k蜜44565</h2>
+				<p><span>我关注的 <i>1</i></span><span>我关注的 <i>1</i></span></p>
+			</nav>	
+			<div class=" f-first">
+				<a href='views/money.html' ng-repeat='x in data1'><img ng-src="{{x.img}}"><small>{{x.title}}</small></a>
+			</div>
+		 	<div class=" f-center">
+				<a href="javascript:;" ng-repeat='x in data2'><img ng-src="{{x.img}}"><small>{{x.title}}</small></a>
+			</div>	
+			<div class="f-bottom">
+				<h4>我的攻略</h4>
+				<img src="img/gonglue.png" alt="">
+			</div>
+		</div>
+	</section>
+</div>

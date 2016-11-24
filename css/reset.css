@@ -1,0 +1,22 @@
+*{
+	font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+	font-family: 'Microsoft Yahei';	
+	margin:0;padding:0;
+	-webkit-box-sizing:border-box;
+}
+h1,h2,h3,h4,h5,h6,dl,dt,dd,p,ul,li,ol,input,button,span{
+	margin:0;
+	padding:0;
+}
+
+
+a{
+	text-decoration:none;
+	color:#000;
+	-webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+ul,ol,li{
+	list-style:none;
+}
